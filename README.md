@@ -24,7 +24,23 @@ Son datos que siempre existiran
 ### Estructuras
 ## 2. Variables (enlaces,binding)
 ## 3. Operadores
+
+su clasificacion  general se devide en tres 
+1. operadores unarios los operadores unarios son aquellos que estan  ubicados a la izquierda del valor que retornan un nuevo valor
+2. Operadores binarios
+   los operdores vinarios son aquellos que estan en medio de dos valores y que retornan
+   un unico valor
+3. operadores tercearios
+   los operadores  tercearios son aqullos que que evaluan tres valores y que retornan un solo valor
+   - operadores aritmitico
+   - operadores de comparacion 
+   - operadores logicos
+   - 
+
+### controles de flujo
 ## 4. Funciones
+
+## TAREA
 
  ### 5 METODOS PARA TRABAJAR CON DATOS ESTRUCTURADOS
 
