@@ -30,14 +30,23 @@ su clasificacion  general se devide en tres
 2. Operadores binarios
    los operdores vinarios son aquellos que estan en medio de dos valores y que retornan
    un unico valor
-3. operadores tercearios
-   los operadores  tercearios son aqullos que que evaluan tres valores y que retornan un solo valor
+S   los operadores  tercearios son aqullos que que evaluan tres valores y que retornan un solo valor
    - operadores aritmitico
    - operadores de comparacion 
    - operadores logicos
    - 
 
 ### controles de flujo
+nuestros programs en javascript contienen mas de una sentencia y las sentencias son 
+ejecutada una a una como si fuera una historia, de arriba hacia abajo como un camino recto.
+## 1 control de desicion (if-else)
+javascript nos permite craer caminos alternativos en nuestrios programas, dependiendo
+de una desicion a esto se le conoce como camino o ejecucion condicional, que ejecuta un 
+sentencia u otra teniendo en cuenta la condicion asi podemos crear multiples camoinos u opciones 
+en nuestros programas.
+si tenemos una condiconal verdadero se ejecutran una sentencia si tenemos condicion false se ejecutan
+otra sentencia totalmemte distintos 
+***observacion**
 ## 4. Funciones
 
 ## TAREA

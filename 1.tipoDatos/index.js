@@ -8,16 +8,16 @@ o retorna un nuevo visual
 console.log(negacion)false
 // operadores binarios
 // son los que  evaluan dos valores y nos dan como resultadoun nuevo valor
-let suma=34+20
-let resta=4-2
-let producto=4*5
-let divicion=3/3
-let potencia=3**2
-let residuo=10%3
+let suma=34+20;
+let resta=4-2;
+let producto=4*5;
+let divicion=3/3;
+let potencia=3**2;
+let residuo=10%3;
 
-##### TAREA
-//operadores de comparacion
-funciones que comparan dos valores y devuelven un resultado booleano (verdadero o falso) basado en la relación entre ellos.
+##### TAREAs
+funciones que comparan dos valores y devuelven un resultado booleano (verdadero o falso) basado 
+en la relación entre ellos.
 let mayor = 5 > 3;           // true
 let menor = 5 < 3;           // false
 let igual = 5 == "5";        // true (compara solo el valor)
@@ -58,3 +58,6 @@ let edad = 18;
 let acceso = (edad >= 18) ? "Permitido" : "Denegado";
 
 console.log("Acceso:", acceso);
+let edad=17
+let ternarios=edad>18?"eres mayor de edad":"eres menor"
+console.log(ternarios)  
