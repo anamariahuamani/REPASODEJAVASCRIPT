@@ -123,4 +123,81 @@ function ejemploLet() {
 }
 
 ejemploVar();
-ejemploLet();
+ejemploLet(
+
+   ✅ TALLER DE REPASO DE JAVASCRIPT
+
+4. CONTROLES DE FLUJO
+
+La ejecución condicional nos permite crear múltiples caminos u opciones en nuestro programa.
+Si tenemos una condición verdadera se ejecutará una sentencia; si tenemos una condición falsa, se ejecutará otra sentencia totalmente distinta.
+
+
+---
+
+⚠️ Observación
+
+La ejecución condicional rompe el flujo normal de un programa.
+
+
+---
+
+🔄 Bucles
+
+bucles (for): tarea → hacer ejemplos que muestren cómo funciona el bucle for.
+
+bucles (while): tarea con ejemplos que muestren cómo funciona el bucle while.
+
+
+
+---
+
+💡 Tip
+
+Sentencias:
+Es una línea de código que hace una acción. Se diferencian al terminar con un punto y coma ;.
+La sentencia está conformada por valores, operadores, expresiones, palabras clave y comentarios
+   Bucles en JavaScript
+ 
+ #### tarea
+✅ Bucle for
+
+Tarea con ejemplo:
+
+// Ejemplo: Imprimir los números del 1 al 5
+for (let i = 1; i <= 5; i++) {
+  console.log("Número: " + i);
+}
+
+📌 Explicación:
+
+let i = 1 → Inicia la variable i en 1.
+
+i <= 5 → El bucle se repite mientras i sea menor o igual a 5.
+
+i++ → Incrementa i de 1 en 1 en cada iteración.
+
+Dentro del bucle se imprime el valor actual de i.
+
+
+
+---
+
+🔄 Bucle while
+
+Tarea con ejemplo:
+
+// Ejemplo: Imprimir los números del 1 al 5
+let j = 1;
+while (j <= 5) {
+  console.log("Número: " + j);
+  j++;
+}
+
+📌 Explicación:
+
+Declara la variable j e inicia con 1.
+
+El bucle se repite mientras j sea menor o igual a 5.
+
+Dentro del bucle se imprime el valor de j y luego se incrementa.
