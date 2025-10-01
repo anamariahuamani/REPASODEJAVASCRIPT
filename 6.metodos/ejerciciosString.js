@@ -19,12 +19,13 @@ function countVocales(texto,vocal){
  return cantidadVocales
 }
  
-let miTexto="mi mama me ama yo amo a mi mama "
+let miTexto="mi mama me ama yo amo a mi mama"
 let searchVocals="o"
-console.log(countVocales( mitext,searchVocals)) 
+console.log(countVocales(miTexto,searchVocals))  2
 
 let otroTexto="hola como estas"
 let vo="o"
+
 // expresiones regulares (regex)
 const contarVocales=(txt,v)=>{
     return txt, toLowercase().split(v.toLowercase()).length-1
@@ -40,5 +41,6 @@ function textoMayuscula(lista){
     }
     return nuevaLista
 }
+
 let amigos=["José", "Dara", "Ruth"]
 console.log(textoMayuscula(amigos))
