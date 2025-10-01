@@ -20,3 +20,24 @@ delete datosAlumno.sexo;
 
 // Mostrar el objeto final
 console.log(datosAlumno);
+
+let alumnos=[ 
+  {"nombre":"ruth","edad":19,"CUI":273333939} ,
+  {"nombre":"flor","edad":18,"CUI":264848474} ,
+  {"nombre":"ashy","edad":19,"CUI":237844777} 
+
+]
+ // deseo muestra una lista solo de los mnores a 19
+ let listaMenores=alumnos.filter(al=>al.edad<19)
+ console.log(listaMenores) 
+
+// actualizar la lista de objetos y agregar el genero femenino a todas
+let listaActualizada=alumnos.map(el=>{
+  el.genero="femenino"
+  return el
+})
+console.log(listaActualizada)
+// de mi lista deseo mostrar ala persona que tenga como CUI 273333939
+let buscaCui=alumnos.find(el=>{
+  return el.CUI == 2733339393
+})

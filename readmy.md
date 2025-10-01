@@ -269,6 +269,7 @@ delete objeto.CUI
 
 
 
+
 ### Acceder: 
 Obtener la información almacenada dentro de un archivo para leer o consultar datos, puede hacerse mediante lectura secuencial o acceso directo según la estructura del archivo.
 ### Modificar:
